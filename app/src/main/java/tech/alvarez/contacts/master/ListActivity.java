@@ -63,15 +63,8 @@ public class ListActivity extends AppCompatActivity implements PeopleAdapter.OnI
     }
 
     public void populateContacts() {
-        contactDao.findAllContacts().observeForever(new Observer<List<Contact>>() {
-            @Override
-            public void onChanged(@Nullable List<Contact> contacts) {
-                setContacts(contacts);
-                if (contacts == null || contacts.size() < 1) {
-                    showEmptyMessage();
-                }
-            }
-        });
+        // TODO: Mostrar los contactos y que mantenga escuchando
+
     }
 
     public void showAddPerson() {
