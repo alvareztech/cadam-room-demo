@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Contactos</string>
+
+    <string name="email">Correo electrónico</string>
+    <string name="name">Nombre</string>
+    <string name="phone">Teléfono</string>
+    <string name="address">Dirección</string>
+    <string name="birthday">Cumpleaños</string>
+
+    <string name="invalid_name">Nombre inválido</string>
+    <string name="invalid_email">Correo electrónico inválido</string>
+    <string name="invalid_birthday">Cumpleaños inválido</string>
+    <string name="invalid_phone">Teléfono inválido</string>
+    <string name="invalid_address">Dirección inválida</string>
+
+    <string name="contact">Contacto</string>
+
+    <string name="are_you_sure">¿Estás seguro de eliminar este contacto?</string>
+    <string name="no_contacts">No tienes contactos</string>
+</resources>
