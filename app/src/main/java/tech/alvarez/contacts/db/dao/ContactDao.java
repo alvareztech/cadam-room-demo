@@ -29,7 +29,7 @@ public interface ContactDao {
     Contact findContact(long id);
 
     @Insert(onConflict = IGNORE)
-    long insertContacto(Contact contact);
+    long insertContact(Contact contact);
 
     @Update
     int updateContact(Contact contact);

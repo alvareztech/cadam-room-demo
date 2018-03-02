@@ -119,7 +119,7 @@ public class ContactActivity extends AppCompatActivity implements DateDialogFrag
     }
 
     public void save(Contact contact) {
-        long ids = this.contactDao.insertContacto(contact);
+        long ids = this.contactDao.insertContact(contact);
         close();
     }
 
